@@ -4,6 +4,14 @@
 [Bb]uild/
 [Bb]uilds/
 Assets/AssetStoreTools*
+Assets/Assets_NoGit*
+Assets/StreamingAssets*
+Assets/_Scenes/Gale Crater
+Assets/_Scenes/Noctis Labyrinthus
+Assets/_Scenes/Olympus Mons
+Assets/_Scenes/Prove cinematiche*
+Assets/_Scenes/Valles Marineris
+Assets/_Scenes/_Main_Alessandro*
 
 # Visual Studio cache directory
 .vs/

@@ -3,7 +3,58 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Action
+  - AutoCrouch
+  - Ragdoll
+  - Ignore Ragdoll
+  - Boss
+  - Enemy
+  - CompanionAI
+  - Weapon
+  - PlayerUI
+  - Collectable
+  - LookAt
+  - Interactable
+  - Dirt
+  - Wood
+  - Metal
+  - Concrete
+  - Glass
+  - Item
+  - Water
+  - LadderTrigger
+  - Cover
+  - ExitWater
+  - Barrel
+  - Save
+  - Computer
+  - Antenna
+  - AreaScanner
+  - AreaGeiger
+  - eSystem
+  - PalaHand
+  - PalaPoket
+  - PalaPickaxeHand
+  - Equipment
+  - Panels
+  - Minerals
+  - Tubes
+  - Pieces
+  - Picture
+  - Blackbox
+  - Wall
+  - Coordinates
+  - Flag
+  - Tubi
+  - Equipaggiamento
+  - Pannelli
+  - CloseFlag
+  - OpenFlag
+  - TheFade
+  - Codex
+  - AudioManager
+  - Rock
   layers:
   - Default
   - TransparentFX
@@ -13,22 +64,22 @@ TagManager:
   - UI
   - 
   - 
+  - Player
+  - Enemy
+  - CompanionAI
+  - Triggers
+  - StopMove
+  - Action
+  - HeadTrack
+  - BodyPart
   - 
   - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  - Sensor
+  - HUD
+  - Hide
+  - Particellari
+  - Base
+  - CameraCollision
   - 
   - 
   - 

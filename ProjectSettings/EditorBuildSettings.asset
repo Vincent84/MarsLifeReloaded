@@ -4,4 +4,43 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/_Scenes/Stefano Mauri/_UI_Menu_Stefano.unity
+    guid: 39ca46d25d56cd6448dc84d259a26746
+  - enabled: 1
+    path: Assets/_Scenes/Gale Crater.unity
+    guid: d76a3068cb525a54f9f19ee3bcbafa10
+  - enabled: 0
+    path: 
+    guid: 34cd98f1150d07045945c6ee4f2b16b7
+  - enabled: 1
+    path: Assets/_Scenes/Valles Marineris.unity
+    guid: 7dae344e9aaf09f4abd05021509dbc5c
+  - enabled: 1
+    path: Assets/_Scenes/Noctis Labyrinthus.unity
+    guid: 70a4b6ea5b1407a4a80839a78fd97e76
+  - enabled: 1
+    path: Assets/_Scenes/Olympus Mons.unity
+    guid: 56335248999cae44fb40ef6300eb12ce
+  - enabled: 0
+    path: 
+    guid: 1e6ad1f5991b493408b382f130d59ecb
+  - enabled: 0
+    path: Assets/_Scenes/_Menu_Prova.unity
+    guid: ebb79d4b5dee1464f8dc27e7c6033bcd
+  - enabled: 0
+    path: Assets/_Scenes/_Main_Vincenzo.unity
+    guid: 3a9c861c34b60b0408f472031cfa8216
+  - enabled: 0
+    path: Assets/_Scenes/_Main_Davide.unity
+    guid: 6c7615359a5b5c842bc5d86472e3215e
+  - enabled: 0
+    path: Assets/_Scenes/Cratere Gale.unity
+    guid: 5c30150cc4092564e8d3970f76342987
+  - enabled: 0
+    path: Assets/_Scenes/Cratere Gale_Prova.unity
+    guid: d86ef11d536faea48ba791f8b92b8b8e
+  - enabled: 1
+    path: Assets/_Scenes/Credits.unity
+    guid: 40a03b794497a424da2c6a15dff3b18a

@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f09442597dfcb284b80ba4af7155564a, type: 3}
+  m_Name: Scene1
+  m_EditorClassIdentifier: 
+  SceneObjects: []
+  SceneDebries:
+  - hashcode: 0
+    ID_objectFound: 0
+    isDestroyed: 0
+  DrilledPlaces:
+  - hascode: 0
+    ID_objectFound: 0
+    isDrilled: 0
+  AmbientEvents:
+  - name: 
+    infoText: 
+    martEvent: {fileID: 0}
+    eventObject: {fileID: 120432, guid: bcfb06d5f638cd94989b5ddb86e581ec, type: 2}
+    done: 0
