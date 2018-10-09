@@ -33,7 +33,7 @@ public class TriggerAudioSong : MonoBehaviour {
 				for (int i = 0; i < Songs.Length; i++) 
 				{
 
-					Debug.Log ("Suono qualche cosa ");
+					//Debug.Log ("Suono qualche cosa ");
 					music.GoStartMusic (0,Songs [i]);
 
 				}
@@ -47,7 +47,7 @@ public class TriggerAudioSong : MonoBehaviour {
 				for (int i = 0; i < Songs.Length; i++) 
 				{
 
-					Debug.Log ("Stoppo qualche cosa ");
+					//Debug.Log ("Stoppo qualche cosa ");
 					music.GoStopMusic (0,Songs [i]);
 
 				}

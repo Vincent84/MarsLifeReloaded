@@ -58,7 +58,7 @@ public class SoundManager : MonoBehaviour {
 
 		}
 
-		Debug.Log (gameObject.name);
+		//Debug.Log (gameObject.name);
 
 		Scene currentScena = SceneManager.GetActiveScene ();
 

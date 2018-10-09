@@ -43,7 +43,7 @@ public class TriggerAudio : MonoBehaviour {
 			{
 
 				isEnter = true;
-				Debug.Log(name + "Entrato");
+				//Debug.Log(name + "Entrato");
 
 				if (pairTrigger != null) 
 				{
@@ -76,7 +76,7 @@ public class TriggerAudio : MonoBehaviour {
 			{
 
 				isEnter = false;
-				Debug.Log(name + "Uscito");
+				//Debug.Log(name + "Uscito");
 
 				if (pairTrigger != null) 
 				{

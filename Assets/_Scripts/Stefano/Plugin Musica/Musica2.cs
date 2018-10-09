@@ -1474,7 +1474,7 @@ public class Musica2 : MonoBehaviour
 	public IEnumerator DoListenClusterTrigger(int IDcluster, int IDfade)
 	{
 
-		Debug.Log ("Ascolto: "+IDfade);
+		//Debug.Log ("Ascolto: "+IDfade);
 		Source1.loop = false;
 		Source2.loop = false;
 
@@ -1486,7 +1486,7 @@ public class Musica2 : MonoBehaviour
 		while(findClusterAudioSource == false)
 		{
 
-			Debug.Log ("Attendo");
+			//Debug.Log ("Attendo");
 
 			yield return null;
 

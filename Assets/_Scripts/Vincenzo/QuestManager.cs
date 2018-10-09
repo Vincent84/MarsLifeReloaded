@@ -49,7 +49,6 @@ public class QuestManager : MonoBehaviour {
     //public IEnumerator InitQuests()
     public void InitQuests()
     {
-        print("Init");
         for (int i = 0; i < this.transform.childCount; i++)
         {
             Quest quest = this.transform.GetChild(i).gameObject.GetComponent<Quest>();

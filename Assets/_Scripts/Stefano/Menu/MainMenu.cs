@@ -881,7 +881,7 @@ public class MainMenu : MonoBehaviour
 	public IEnumerator FadeScena(string nameScena)
 	{
 
-		Debug.Log ("Avvio scena!");
+		//Debug.Log ("Avvio scena!");
 
 		while(background.alpha < 1)
 		{
@@ -900,7 +900,7 @@ public class MainMenu : MonoBehaviour
 
 		}
 
-		Debug.Log ("Avvio scena!");
+		//Debug.Log ("Avvio scena!");
 
         //gameObject.SetActive(false);
         yield return new WaitForSeconds(1);

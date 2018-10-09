@@ -40,7 +40,7 @@ public class DoorAnimation : MonoBehaviour
     public void OnTriggerEnter(Collider other)
     {
 
-		Debug.Log ("Eseguito");
+		//Debug.Log ("Eseguito");
 
 		//Per evitare di eseguire quando le porte sono bloccate
 		if (isEnter == false && doorDown.IsInTransition(0) == true && doorUp.IsInTransition(0) == true) 
@@ -77,7 +77,7 @@ public class DoorAnimation : MonoBehaviour
     public void OnTriggerExit(Collider other)
     {
 
-		Debug.Log ("Eseguito");
+		//Debug.Log ("Eseguito");
 
 		if (isEnter == true) 
 		{
