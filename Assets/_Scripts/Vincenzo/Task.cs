@@ -74,7 +74,7 @@ public class Task : MonoBehaviour
     {
         this.currentState = TaskState.COMPLETED;
         Database.currentQuest.activedTask.currentState = TaskState.COMPLETED;
-        QuestManager.instance.currentQuest.SwitchToNextTask();
+        QuestManager.instance.CurrentQuest.SwitchToNextTask();
     }
 
 }

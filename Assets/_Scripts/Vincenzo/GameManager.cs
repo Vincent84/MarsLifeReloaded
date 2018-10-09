@@ -8,11 +8,12 @@ public class GameManager : MonoBehaviour {
 
     public static GameManager instance;
     public static bool newGame = true;
+    [HideInInspector]
     public string activeCheckpoint;
     [HideInInspector]
     public GadgetManager gadgetManager;
 
-    public Musica2 music;
+    //public Musica2 music;
 
     List<string> scenes;
     QuestManager questManager;

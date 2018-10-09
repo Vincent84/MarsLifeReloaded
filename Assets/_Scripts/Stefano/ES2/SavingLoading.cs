@@ -142,7 +142,7 @@ public class SavingLoading : MonoBehaviour
 		//int 
 		ES2.Save (Database.currentQuest.questPriority, PlayerPrefs.GetString ("Slot") + ".txt?tag=currentQuestQuestPriority");
 
-		Debug.Log ("Quest corrente salvata");
+		//Debug.Log ("Quest corrente salvata");
 
 	}
 
@@ -165,7 +165,7 @@ public class SavingLoading : MonoBehaviour
 
 		}
 
-		Debug.Log ("Gadegts salvati");
+		//Debug.Log ("Gadegts salvati");
 
 	}
 
@@ -188,7 +188,7 @@ public class SavingLoading : MonoBehaviour
 
 		}
 
-		Debug.Log ("Scene salvate");
+		//Debug.Log ("Scene salvate");
 
 	}
 		
@@ -217,7 +217,7 @@ public class SavingLoading : MonoBehaviour
 
         }
 
-		Debug.Log ("Interctable Objects salvati");
+		//Debug.Log ("Interctable Objects salvati");
 
 	}
 
@@ -275,7 +275,7 @@ public class SavingLoading : MonoBehaviour
 		else 
 		{
 			
-			Debug.Log ("Il file non esiste");
+			//Debug.Log ("Il file non esiste");
 			GameManager.newGame = true;
 
 		}
@@ -292,7 +292,7 @@ public class SavingLoading : MonoBehaviour
 
 		Database.currentScene =  ES2.Load<string> (PlayerPrefs.GetString ("Slot") + ".txt?tag=currentScene");
 
-		Debug.Log ("Scena corrente caricata");
+		//Debug.Log ("Scena corrente caricata");
 
 	}
 
@@ -376,7 +376,7 @@ public class SavingLoading : MonoBehaviour
 		Database.currentQuest.activedTask.taskPriority = ES2.Load<int> (PlayerPrefs.GetString ("Slot") + ".txt?tag=currentQuestActivedTaskTaskPriority");
 		Database.currentQuest.questPriority = ES2.Load<int> (PlayerPrefs.GetString ("Slot") + ".txt?tag=currentQuestQuestPriority");
 
-		Debug.Log ("Quest corrente caricata");
+		//Debug.Log ("Quest corrente caricata");
 
 	}
 
@@ -402,7 +402,7 @@ public class SavingLoading : MonoBehaviour
 
 		}
 
-		Debug.Log ("Gadegts caricati");
+		//Debug.Log ("Gadegts caricati");
 
 	}
 
@@ -426,7 +426,7 @@ public class SavingLoading : MonoBehaviour
 
 		}
 
-		Debug.Log ("Scene caricate");
+		//Debug.Log ("Scene caricate");
 
 	}
 
@@ -454,7 +454,7 @@ public class SavingLoading : MonoBehaviour
 
 		}
 
-		Debug.Log ("Interctable Objects caricati");
+		//Debug.Log ("Interctable Objects caricati");
 
 	}
 

@@ -13,9 +13,9 @@ public class ProveAction : vTriggerGenericAction {
     
     public void GetProve()
     {
-        if(QuestManager.instance.currentQuest.taskActived is TaskInteract)
+        if(QuestManager.instance.CurrentQuest.taskActived is TaskInteract)
         {
-            if (QuestManager.instance.currentQuest.taskActived.GetComponent<TaskInteract>().isDestroyable)
+            if (QuestManager.instance.CurrentQuest.taskActived.GetComponent<TaskInteract>().isDestroyable)
             {
                 //Destroy(this.transform.parent.gameObject);
 

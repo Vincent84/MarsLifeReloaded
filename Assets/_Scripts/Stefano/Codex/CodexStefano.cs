@@ -441,7 +441,7 @@ public class CodexStefano : MonoBehaviour
 
 		}
 
-		Debug.Log ("Next scheda");
+		//Debug.Log ("Next scheda");
 
 	}
 
@@ -908,7 +908,7 @@ public class CodexStefano : MonoBehaviour
 
         SetCloseCodex();
 
-        Debug.Log("Codex chiuso");
+        //Debug.Log("Codex chiuso");
 
     }
 

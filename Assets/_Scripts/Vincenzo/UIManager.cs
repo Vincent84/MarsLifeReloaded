@@ -362,7 +362,7 @@ public class UIManager : MonoBehaviour
     public void ChangeQuestText()
     {
         QuestManager questManager = FindObjectOfType<QuestManager>();
-        questText.GetComponent<Text>().text = questManager.currentQuest.questName;
+        questText.GetComponent<Text>().text = questManager.CurrentQuest.questName;
     }
 
     /// <summary>

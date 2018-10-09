@@ -7,11 +7,21 @@ using UnityEngine.UI;
 public class QuestManager : MonoBehaviour {
 
     public static QuestManager instance;
-    public List<Quest> quests = new List<Quest>();
-    public Quest currentQuest;
+    public string travelTo;
+
+    Quest currentQuest;
+    List<Quest> quests = new List<Quest>();
     string currentTarget;
     string currentTargetObjects;
-    public string travelTo;
+
+    public Quest CurrentQuest
+    {
+        get { return currentQuest; }
+        set
+        {
+            currentQuest = value;
+        }
+    }
 
     public string CurrentTarget
     {
@@ -46,7 +56,6 @@ public class QuestManager : MonoBehaviour {
 
     }
 
-    //public IEnumerator InitQuests()
     public void InitQuests()
     {
         for (int i = 0; i < this.transform.childCount; i++)
@@ -63,22 +72,16 @@ public class QuestManager : MonoBehaviour {
                 Database.currentQuest = dataQuest;
             }
 
-            //yield return StartCoroutine(quest.InitQuest(dataQuest));
-            //quest.InitQuest(dataQuest);
             quest.InitQuest();
 
         }
 
         UIManager.instance.ChangeQuestText();
-        //yield return null;
     }
 
-    //public IEnumerator SetQuests()
     public void SetQuests()
     {   
         quests.Clear();
-
-        print(Database.scenes.Count);
 
         foreach(Database.DataQuest dataQuest in Database.quests)
         {
@@ -86,14 +89,12 @@ public class QuestManager : MonoBehaviour {
             quest.currentState = dataQuest.currentState;
             quests.Add(quest);
 
-            //yield return StartCoroutine(quest.SetQuest(dataQuest));
             quest.SetQuest(dataQuest);
 
         }
 
         currentQuest = this.quests[Database.currentQuest.questPriority];
         UIManager.instance.ChangeQuestText();
-        //yield return null;
     }
 
     public void SwitchToNextQuest()
@@ -105,12 +106,7 @@ public class QuestManager : MonoBehaviour {
             currentQuest = quests[tempPriority];
             Database.currentQuest = Database.quests[tempPriority];
             quests[tempPriority].EnableQuest();
-            //quests[tempPriority].currentState = Quest.QuestState.ENABLED;
             
-
-            //Database.quests[tempPriority].currentState = Quest.QuestState.ENABLED;
-            
-
             currentQuest.taskActived = currentQuest.questTasks[0];
             Database.currentQuest.activedTask = Database.currentQuest.tasks[0];
             currentQuest.questTasks[0].EnableTask();

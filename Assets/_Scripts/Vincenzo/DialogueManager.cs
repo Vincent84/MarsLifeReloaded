@@ -54,7 +54,7 @@ public class DialogueManager
 
     public void SwitchDialogues(string[] dialoguesToSwitch)
     {
-        TaskTalk dialoguePointer = QuestManager.instance.currentQuest.taskActived.GetComponent<TaskTalk>();
+        TaskTalk dialoguePointer = QuestManager.instance.CurrentQuest.taskActived.GetComponent<TaskTalk>();
         (dialoguePointer.currentDialogue)++;
         //this.GetComponentInChildren<Text>().text = dialoguesToSwitch[dialoguePointer.currentDialogue];
         UIManager.instance.dialoguePanel.GetComponentInChildren<Text>().text = dialoguesToSwitch[dialoguePointer.currentDialogue];

@@ -90,7 +90,7 @@ public class SaveMenu : MonoBehaviour {
 	{
 
 		PlayerPrefs.SetString ("Slot", slotName.text);
-		Debug.Log (PlayerPrefs.GetString ("Slot"));
+		//Debug.Log (PlayerPrefs.GetString ("Slot"));
 
 	}
 

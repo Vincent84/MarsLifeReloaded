@@ -395,7 +395,7 @@ public class HUD : MonoBehaviour {
 			//musicAudio.volume = 0;
 			musicAudio.SetFloat("Volume", -80f);
 
-			Debug.Log ("Music mute");
+			//Debug.Log ("Music mute");
 
 		} 
 		else if (nameList == "SFX")
@@ -412,7 +412,7 @@ public class HUD : MonoBehaviour {
 			//SFXaudio.volume = 0;
 			SFXaudio.SetFloat("Volume", -80f);
 
-			Debug.Log ("SFX mute");
+			//Debug.Log ("SFX mute");
 
 		} 
 		else if (nameList == "Main") 
@@ -429,7 +429,7 @@ public class HUD : MonoBehaviour {
 			mainAudio.SetFloat("Volume", -80f);
 			invectorAudio.SetFloat ("Volume", -80f);
 
-			Debug.Log("Main mute");
+			//Debug.Log("Main mute");
 
 		}
 
@@ -1048,7 +1048,7 @@ public class HUD : MonoBehaviour {
 
 					}*/
 
-					Debug.Log (buttonsRover [j].targetScene + " = " +Database.scenes [i].isUnlocked);
+					//Debug.Log (buttonsRover [j].targetScene + " = " +Database.scenes [i].isUnlocked);
 
 				}
 
