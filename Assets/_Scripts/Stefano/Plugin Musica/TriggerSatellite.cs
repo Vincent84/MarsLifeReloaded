@@ -33,7 +33,7 @@ public class TriggerSatellite : MonoBehaviour {
 		{
 
 
-			Debug.Log ("Entrati");
+			//Debug.Log ("Entrati");
 
 			if (isEnter == false) 
 			{

@@ -15,8 +15,14 @@ public class Quest : MonoBehaviour
     public QuestState currentState;
     public string questName;
     public int questPriority;
-    public Task taskActived;
-    public List<Task> questTasks = new List<Task>();
+
+    Task taskActived;
+    List<Task> questTasks = new List<Task>();
+
+    public Task TaskActived
+    {
+        get { return taskActived; }
+    }
 
     //public IEnumerator InitQuest(Database.DataQuest quest)
     //public void InitQuest(Database.DataQuest quest)
@@ -63,8 +69,13 @@ public class Quest : MonoBehaviour
 
     public void EnableQuest()
     {
+        this.taskActived = this.questTasks[0];
+        Database.currentQuest.activedTask = Database.currentQuest.tasks[0];
+        this.questTasks[0].EnableTask();
+
         this.currentState = QuestState.ENABLED;
         Database.quests[Database.currentQuest.questPriority].currentState = QuestState.ENABLED;
+        
         UIManager.instance.ChangeQuestText();
     }
 

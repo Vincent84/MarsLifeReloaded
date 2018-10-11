@@ -18,7 +18,6 @@ public class GameManager : MonoBehaviour {
     List<string> scenes;
     QuestManager questManager;
     vThirdPersonController player;
-    //Invector.vGameController gameController;
 
     private void Awake()
     {
@@ -33,7 +32,6 @@ public class GameManager : MonoBehaviour {
 
         DontDestroyOnLoad(this);
 
-        //questManager = QuestManager.instance;
         questManager = FindObjectOfType<QuestManager>();
         gadgetManager = FindObjectOfType<GadgetManager>();
         player = FindObjectOfType<vThirdPersonController>();

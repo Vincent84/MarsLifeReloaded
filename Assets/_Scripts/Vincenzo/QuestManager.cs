@@ -107,9 +107,9 @@ public class QuestManager : MonoBehaviour {
             Database.currentQuest = Database.quests[tempPriority];
             quests[tempPriority].EnableQuest();
             
-            currentQuest.taskActived = currentQuest.questTasks[0];
-            Database.currentQuest.activedTask = Database.currentQuest.tasks[0];
-            currentQuest.questTasks[0].EnableTask();
+            //currentQuest.taskActived = currentQuest.questTasks[0];
+            //Database.currentQuest.activedTask = Database.currentQuest.tasks[0];
+            //CurrentQuest.questTasks[0].EnableTask();
 
             UIManager.instance.ChangeQuestText();
 
@@ -126,13 +126,13 @@ public class QuestManager : MonoBehaviour {
 
     public void CheckQuest()
     {
-        if(SceneManager.GetActiveScene().name == currentQuest.taskActived.taskScene)
+        if(SceneManager.GetActiveScene().name == currentQuest.TaskActived.taskScene)
         {
-            currentQuest.taskActived.ReadyTask();
+            currentQuest.TaskActived.ReadyTask();
         }
         else
         {
-            currentQuest.taskActived.EnableTask();
+            currentQuest.TaskActived.EnableTask();
         }
 
         UIManager.instance.ChangeQuestText();

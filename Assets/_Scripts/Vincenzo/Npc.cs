@@ -22,19 +22,20 @@ public class Npc : MonoBehaviour {
         if((Input.GetKeyDown(KeyCode.E) || Input.GetKeyDown(KeyCode.JoystickButton2)) && playerTriggered)
         {
             UIManager.instance.ShowDialoguePanel();
-            if (QuestManager.instance.CurrentQuest.taskActived.GetComponent<TaskTalk>() &&
-                QuestManager.instance.CurrentQuest.taskActived.GetComponent<TaskTalk>().npcAssociated == this.npc)
+            Task taskActived = QuestManager.instance.CurrentQuest.TaskActived;
+            if (taskActived.GetComponent<TaskTalk>() &&
+                taskActived.GetComponent<TaskTalk>().npcAssociated == this.npc)
             {
-                if (QuestManager.instance.CurrentQuest.taskActived.currentState == Task.TaskState.READY)
+                if (taskActived.currentState == Task.TaskState.READY)
                 {
                     this.transform.parent.GetComponent<Animator>().SetBool("isTalking", true);
-                    QuestManager.instance.CurrentQuest.taskActived.ActiveTask();
+                    taskActived.ActiveTask();
                 }
-                else if (QuestManager.instance.CurrentQuest.taskActived.currentState == Task.TaskState.ACTIVED)
+                else if (taskActived.currentState == Task.TaskState.ACTIVED)
                 {
-                    QuestManager.instance.CurrentQuest.taskActived.DoTask();
+                    taskActived.DoTask();
                 }
-                else if (QuestManager.instance.CurrentQuest.taskActived.currentState == Task.TaskState.COMPLETING)
+                else if (taskActived.currentState == Task.TaskState.COMPLETING)
                 {
                     DialogueManager.instance.SetDialogue(npcDefaultDialogue, true);
                 }
