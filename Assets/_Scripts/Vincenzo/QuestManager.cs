@@ -17,10 +17,6 @@ public class QuestManager : MonoBehaviour {
     public Quest CurrentQuest
     {
         get { return currentQuest; }
-        set
-        {
-            currentQuest = value;
-        }
     }
 
     public string CurrentTarget
@@ -76,7 +72,7 @@ public class QuestManager : MonoBehaviour {
 
         }
 
-        UIManager.instance.ChangeQuestText();
+        //UIManager.instance.ChangeQuestText();
     }
 
     public void SetQuests()

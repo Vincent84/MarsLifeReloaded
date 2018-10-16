@@ -51,7 +51,7 @@ public class PickaxeAction : vTriggerGenericAction {
     public IEnumerator UsePickaxe()                                                  // Attiva e disattiva la pala tra la Tasca e la Mano
     {
         Animator playerAnimator = vThirdPersonController.instance.GetComponent<Animator>();
-        int pickaxeState = playerAnimator.GetInteger("PickaxeState");
+        //int pickaxeState = playerAnimator.GetInteger("PickaxeState");
 
 		this.gameObject.GetComponent<BoxCollider> ().enabled = false;
 
