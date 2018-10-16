@@ -177,10 +177,6 @@ public class RoverManager : MonoBehaviour
 
 		}
 
-		Debug.Log ("uscito");
-
-		yield return null;
-
 	}
 		
 

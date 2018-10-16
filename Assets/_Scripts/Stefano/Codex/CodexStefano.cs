@@ -160,7 +160,7 @@ public class CodexStefano : MonoBehaviour
 	public CodexMission[] listMission;
 
 	[Header("Variabili dedicate alla grafica del Codex")]
-	public Text name;
+	public Text title;
 	public Text description; 
 	public Image photo;
 	public GameObject obj;
@@ -654,7 +654,7 @@ public class CodexStefano : MonoBehaviour
 	{
 
 		//Stampo i valori a schermo 
-		name.text = cg.name;
+		title.text = cg.name;
 		description.text = cg.description;
 		photo.sprite = cg.photo;
 
@@ -675,7 +675,7 @@ public class CodexStefano : MonoBehaviour
 	{
 
 		//Stampo i valori a schermo 
-		name.text = ch.name;
+		title.text = ch.name;
 		description.text = ch.description;
 		photo.sprite = ch.photo;
 
@@ -696,7 +696,7 @@ public class CodexStefano : MonoBehaviour
 	{
 
 		//Stampo i valori a schermo 
-		name.text = cm.name;
+		title.text = cm.name;
 		description.text = cm.description;
 		photo.sprite = cm.photo;
 
@@ -709,7 +709,7 @@ public class CodexStefano : MonoBehaviour
 	{
 
 		//Stampo i valori a schermo 
-		name.text = cp.name;
+		title.text = cp.name;
 		description.text = cp.description;
 		photo.sprite = cp.photo;
 
@@ -727,7 +727,7 @@ public class CodexStefano : MonoBehaviour
 		{
 
 			//Stampo i valori a schermo 
-			name.text = listGadget [0].name;
+			title.text = listGadget [0].name;
 			description.text = listGadget [0].description;
 			photo.sprite = listGadget [0].photo;
 
@@ -745,7 +745,7 @@ public class CodexStefano : MonoBehaviour
 		{
 
 			//Stampo i valori a schermo 
-			name.text = listCharacter [0].name;
+			title.text = listCharacter [0].name;
 			description.text = listCharacter [0].description;
 			photo.sprite = listCharacter [0].photo;
 
@@ -763,7 +763,7 @@ public class CodexStefano : MonoBehaviour
 
 
 			//Stampo i valori a schermo 
-			name.text = listPlace [0].name;
+			title.text = listPlace [0].name;
 			description.text = listPlace [0].description;
 			photo.sprite = listPlace [0].photo;
 
@@ -773,7 +773,7 @@ public class CodexStefano : MonoBehaviour
 		{
 
 			//Stampo i valori a schermo 
-			name.text = listMission [0].name;
+			title.text = listMission [0].name;
 			description.text = listMission [0].description;
 			photo.sprite = listMission [0].photo;
 
@@ -790,7 +790,7 @@ public class CodexStefano : MonoBehaviour
 	{
 
 		//Stampo i valori a schermo 
-		name.text = listGadget[0].name;
+		title.text = listGadget[0].name;
 		description.text = listGadget[0].description;
 		photo.sprite = listGadget[0].photo;
 

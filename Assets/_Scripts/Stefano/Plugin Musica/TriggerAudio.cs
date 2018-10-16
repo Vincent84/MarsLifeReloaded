@@ -9,7 +9,7 @@ public class TriggerAudio : MonoBehaviour {
 
 	public int[] listSnapShotEnter;
 	public int[] listSnapshotExit;
-	public string name;
+	public string title;
 
 	public TriggerAudio pairTrigger;
 	public bool isEnter = false;
