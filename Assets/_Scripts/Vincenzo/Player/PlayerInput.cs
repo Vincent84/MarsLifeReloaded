@@ -27,14 +27,15 @@ public class PlayerInput : vThirdPersonInput
     {
         base.InputHandle();
 
+        if (lockInput || cc.lockMovement || cc.ragdolled) return;
+
         TorchInput(); // Torcia
         GeigerInput(); // Geiger
         ScannerInput(); // Scanner
         CompassInput(); // Compass
-        //MenuInput(); // Menu
     }
 
-    protected void TorchInput() // Torcia
+    private void TorchInput() // Torcia
     {
 
         if (torchInput.GetButtonDown() && cc.GetComponent<GenericSettings>().isOutside)
