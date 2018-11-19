@@ -14,3 +14,4 @@ Le features che sono state implementate da me riguardano:
 - Implementazione di parte del salvataggio e del caricamento
 - Implementazione dei vari dialoghi con gli altri membri dell'equipaggio
 - Fixing di bug relativi ai plugin di movimento di personaggio e camera
+<img align="left" width="200" src="Marketing/ML_1.png">
