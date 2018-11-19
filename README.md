@@ -14,4 +14,12 @@ Le features che sono state implementate da me riguardano:
 - Implementazione di parte del salvataggio e del caricamento
 - Implementazione dei vari dialoghi con gli altri membri dell'equipaggio
 - Fixing di bug relativi ai plugin di movimento di personaggio e camera
+
 <img align="left" width="200" src="Marketing/ML_1.png">
+<img align="left" width="200" src="Marketing/GaleCrater_02.png">
+<img align="left" width="200" src="Marketing/ML_4.png">
+<img width="200" src="Marketing/ML_3.png">
+<img align="left" width="200" src="Marketing/ML_5.png">
+<img align="left" width="200" src="Marketing/ML_14.png">
+<img align="left" width="200" src="Marketing/VallesMarineris_01.png">
+<img width="200" src="Marketing/OlympusMons_01.png">
