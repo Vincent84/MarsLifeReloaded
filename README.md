@@ -1,5 +1,4 @@
 # Mars Life
-![Screenshot](Marketing/ML_1.png)
 Mars Life è il progetto finale sviluppato nella Digital Bros Game Academy.
 È un gioco esplorativo in terza persona in cui il giocatore controlla uno dei quattro membri dell'equipaggio mandato in missione su Marte per iniziare una sua colonizzazione.
 Durante l'esplorazione il giocatore dovrà compiere determinate missioni per rendere più accogliente l'ambiente circostante e per risolvere problemi che si vengono a creare nella base.
